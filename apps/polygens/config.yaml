@@ -1,0 +1,46 @@
+publisher:
+  name: Polygens Team
+  website: https://www.polygens.net
+  email: contact@polygens.net
+  support_email: support@polygens.net
+app:
+  name: Polygens
+  address: ''
+  android_package: com.polygens.app
+  urls:
+    license_url: https://www.polygens.net/terms
+    copyright_url: https://www.polygens.net/terms
+    privacy_policy_url: https://www.polygens.net/privacy
+    website: https://www.polygens.net
+  media:
+    - purpose: icon
+      uri: ./media/app_icon.png
+release:
+  address: ''
+  media:
+    - purpose: icon
+      uri: ./media/release_icon.png
+    - purpose: banner
+      uri: ./media/banner.png
+    - purpose: screenshot
+      uri: ./media/screenshot_1.png
+    - purpose: screenshot
+      uri: ./media/screenshot_2.png
+    - purpose: screenshot
+      uri: ./media/screenshot_3.png
+  files:
+    - purpose: install
+      uri: ./files/app-release.apk
+  catalog:
+    en-US:
+      name: Polygens
+      short_description: Predict the future on Solana
+      long_description: Polygens is a decentralized prediction market platform on Solana. Trade on real-world events, make predictions, and win rewards. Fast, secure, and powered by blockchain technology.
+      new_in_version: Initial release
+      saga_features: Optimized for Solana Seeker with Seed Vault integration
+  android_details:
+    locales:
+      - en-US
+solana_mobile_dapp_publisher_portal:
+  google_store_package: com.polygens.app
+  testing_instructions: Open the app and connect your Solana wallet. Browse available prediction markets and place test predictions.
